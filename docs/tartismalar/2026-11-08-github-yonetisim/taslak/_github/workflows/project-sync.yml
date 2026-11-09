@@ -1,0 +1,43 @@
+# Project board sync: the board's seven columns are the seven steps of ROADMAP.md. The column of a card comes only from
+# the issue's stage:N-... label. Uses the organization App token (permission: organization Projects, read and write).
+# No AI, no text from outsiders in `run:`. If vars.PROJECT_NUMBER is empty nothing happens.
+
+name: project-sync
+
+on:
+  schedule:
+    - cron: "53 */3 * * *"
+  workflow_dispatch: {}
+
+permissions: {}
+
+concurrency:
+  group: project-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: vars.PROJECT_NUMBER != '' && vars.APP_ID != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    environment: automation
+    permissions:
+      contents: read
+    steps:
+      - id: app
+        uses: actions/create-github-app-token@<SHA-DOĞRULANMALI> # v1
+        with:
+          app-id: ${{ vars.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: ${{ github.repository_owner }}
+      - uses: actions/checkout@<SHA-DOĞRULANMALI> # v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+          fetch-depth: 1
+      - shell: bash
+        env:
+          GH_TOKEN: ${{ steps.app.outputs.token }}
+          REPO: ${{ github.repository }}
+          PROJECT_NUMBER: ${{ vars.PROJECT_NUMBER }}
+        run: bash .github/scripts/project-sync.sh

@@ -1,0 +1,72 @@
+# Heartbeat: the dead man's switch (K31 version) and the keep-alive for scheduled workflows.
+#
+# 1. heartbeat.sh measures outside human attention (not founder presence) and sets the state label on the control issue:
+#    quiet 45 days, safe-mode 90 days, dormant 180 days. Safe mode makes AI more careful, not freer. It grants nobody any power.
+#    Custodian presence is reported separately.
+# 2. GitHub pauses scheduled workflows after 60 days without repository activity. A weekly commit to the branch `status`
+#    is meant to count as activity. UNVERIFIED: that a commit made with the workflow token on a non-default branch
+#    counts. KURULUM.md has a test, and triage.yml has a second line of defence (it re-enables paused workflows).
+
+name: heartbeat
+
+on:
+  schedule:
+    - cron: "17 5 * * *"
+  workflow_dispatch: {}
+
+permissions: {}
+
+concurrency:
+  group: heartbeat
+  cancel-in-progress: false
+
+jobs:
+  attention:
+    name: Measure attention
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: read
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      WARN_DAYS: ${{ vars.WARN_DAYS || '45' }}
+      SAFE_DAYS: ${{ vars.SAFE_DAYS || '90' }}
+      DORMANT_DAYS: ${{ vars.DORMANT_DAYS || '180' }}
+    steps:
+      - uses: actions/checkout@<SHA-DOĞRULANMALI> # v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          persist-credentials: false
+          fetch-depth: 1
+      - shell: bash
+        run: bash .github/scripts/heartbeat.sh
+
+  keepalive-commit:
+    name: Weekly status commit (keeps schedules alive)
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@<SHA-DOĞRULANMALI> # v4
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 1
+          persist-credentials: true
+      - name: Commit to the branch status once a week
+        shell: bash
+        run: |
+          set -euo pipefail
+          # only on Mondays (UTC), unless started by hand
+          if [[ "${{ github.event_name }}" == "schedule" && "$(date -u +%u)" != "1" ]]; then echo "Not Monday."; exit 0; fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan status
+          git rm -rf --quiet . || true
+          printf 'Heartbeat %s\nThis branch holds only timestamps. It exists so that the repository shows activity.\n' "$(date -u +%FT%TZ)" > STATUS.txt
+          git add STATUS.txt
+          git commit -q -m "Heartbeat $(date -u +%F)"
+          git push -q --force origin status
