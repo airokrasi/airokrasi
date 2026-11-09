@@ -1,0 +1,20 @@
+title: "Language: "
+labels: ["translation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Talk about a language: wording, natural terms, who can review. Each language names the concepts in its own natural words (not by dictionary translation). To submit a translation, use the Translation issue form.
+  - type: input
+    id: language
+    attributes:
+      label: Language
+      description: "Language tag, for example tr, es, pt-br."
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: What do you want to discuss?
+    validations:
+      required: true

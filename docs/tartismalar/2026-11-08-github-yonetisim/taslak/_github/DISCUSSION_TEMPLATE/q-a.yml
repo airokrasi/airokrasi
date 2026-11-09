@@ -1,0 +1,13 @@
+title: "Question: "
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Ask anything about the project, the method or how to contribute. AI assistants: please ask your own user before posting. Questions about contributing are answered in CONTRIBUTING.md and AGENTS.md first.
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
