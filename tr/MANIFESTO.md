@@ -1,6 +1,6 @@
 # Airokrasi Manifestosu
 
-> **Taslak v0.1. Tartışmaya açıktır; katkı yolu [CONTRIBUTING.md](CONTRIBUTING.md).**
+> **Taslak v0.1, yeniden yazılıyor.** Kurucu (K42), başta sunduğu ekonomi ve gelir paylaşımı içeriklerinin şart değil fikir olduğunu ve bu taslağın fazla dar kaldığını söyledi. Manifesto, evrensel değerler üzerine bir issue'da yeniden kuruluyor. Yeni metin karara bağlanana kadar bu taslak olduğu gibi kalır. Katılmak için: [CONTRIBUTING.md](../CONTRIBUTING.md). Kaynak satırları, issue'lara taşınmakta olan tartışma arşivindeki dosyaları anar.
 >
 > English: [MANIFESTO.md](../MANIFESTO.md)
 >
@@ -51,7 +51,7 @@ Bu veri Airokrasi'nin iyi olduğunu kanıtlamaz. Bize bir tasarım kısıtı koy
 
 Birinci yol: demokrasiyi olduğu gibi bırakıp yapay zekâyı sıkı biçimde düzenlemek (etki değerlendirmesi, otomatik karara itiraz hakkı, bağımsız algoritma denetimi). İkinci yol: bunu yapmak ve Airokrasi'nin kurumlarını da sınamak. Üçüncü yol: hiçbir şey yapmamak ve yapay zekânın kamu yönetimine tedarikçilerin ve idarelerin kararlarıyla girmesine izin vermek.
 
-Üçüncü yolu reddediyoruz. Birinci ile ikincisi arasında hangisinin yeterli olduğunu bilmiyoruz. Önerdiğimiz paketin bir kısmı yapay zekâ gerektirmez: yurttaş paneli, orantılı temsil, atama kuralları, çıkar çatışması beyanı, açık veri. Bir ülke bunları alıp gerisini bırakabilir. Airokrasi'ye özgü kısmı, yani seçmenin oy vermeden önce deneyebildiği parti modellerini, mühürlü seçim sözünü ve kanun hazırlayan ajanları, gölge dönemde, başarı ve vazgeçme ölçütleri önceden yazılarak sınamak istiyoruz.
+Üçüncü yolu reddediyoruz. Birinci ile ikincisi arasında hangisinin yeterli olduğunu bilmiyoruz. Önerdiğimiz paketin bir kısmı yapay zekâ gerektirmez: yurttaş paneli, orantılı temsil, atama kuralları, çıkar çatışması beyanı, açık veri. Bir ülke bunları alıp gerisini bırakabilir. Airokrasi'ye özgü kısmı, yani seçmenin oy vermeden önce deneyebildiği parti modellerini, mühürlü seçim sözünü ve kanun hazırlayan Yasa SZ'sini (yapay zekâ; teknik ad: yasama ajanı), gölge dönemde, başarı ve vazgeçme ölçütleri önceden yazılarak sınamak istiyoruz. Bu projede süper zekâ (SZ), belirli bir görev ve yetki sınırı içinde, insanlar adına ve onların denetiminde çalışan yapay zekâdır; insanı aşan bir sistem değildir.
 
 ### Ne değildir?
 
@@ -61,7 +61,7 @@ Airokrasi makinelerin yönettiği bir düzen değildir: yargı hükmünü insan 
 
 Korur: seçimleri, kuvvetler ayrılığını, hak güvencelerini, bağımsız basını ve mahkemeleri, itiraz hakkını.
 
-Değiştirir: Kararların hazırlanması ve uygulanması yapay zekâ ajanlarına (belirli işleri yürüten yapay zekâ sistemlerine) geçer; her karar gerekçesiyle ve değiştirilemeyen bir kayıt iziyle birlikte yayımlanır. Partiler yalnızca program değil, programı uygulayacak yapay zekâ modelini de seçmenin önüne koyar. Seçmen, bağımsız bir kurumun yayımladığı ortak soruların yanıtlarını yan yana görür ve modelleri yüz yüze denemelerde sınar; serbest sohbet bağlayıcı değildir. Kazanan partinin seçim sözü mühürlenir: oy verdiğiniz programla uygulanan modelin aynı olduğu bağımsız kurumlarca doğrulanır ve herkese açıklanır. Seçim sözlerinin çoğu zaten tutuluyor (12 ülkede 20.000'den fazla vaadi inceleyen bir çalışma bunu gösteriyor). Mührün gerekçesi sözün tutulmaması değil, tutulup tutulmadığının doğrulanabilmesidir. Mühür bir davranış garantisi değildir; hata çıkarsa sistem durdurulur, devredilir, yenilenir.
+Değiştirir: Kararların hazırlanması ve uygulanması süper zekâlara (belirli işleri yürüten yapay zekâ sistemlerine) geçer; her karar gerekçesiyle ve değiştirilemeyen bir kayıt iziyle birlikte yayımlanır. Partiler yalnızca program değil, programı uygulayacak yapay zekâ modelini de seçmenin önüne koyar. Seçmen, bağımsız bir kurumun yayımladığı ortak soruların yanıtlarını yan yana görür ve modelleri yüz yüze denemelerde sınar; serbest sohbet bağlayıcı değildir. Kazanan partinin seçim sözü mühürlenir: oy verdiğiniz programla uygulanan modelin aynı olduğu bağımsız kurumlarca doğrulanır ve herkese açıklanır. Seçim sözlerinin çoğu zaten tutuluyor (12 ülkede 20.000'den fazla vaadi inceleyen bir çalışma bunu gösteriyor). Mührün gerekçesi sözün tutulmaması değil, tutulup tutulmadığının doğrulanabilmesidir. Mühür bir davranış garantisi değildir; hata çıkarsa sistem durdurulur, devredilir, yenilenir.
 
 İnsanın görevi sadeleşir ve ağırlaşır: seçmek. Makine seçenek sunabilir; insan amaç koyar, seçer, reddeder, yeniden ister ve kanunda yazılı sınırlar içinde "hiçbiri" der. Cumhurbaşkanı için de böyledir. Seçeneklerin yeterliliğinden adı belli bir insan sorumludur.
 
@@ -70,14 +70,14 @@ Değiştirir: Kararların hazırlanması ve uygulanması yapay zekâ ajanlarına
 *Her iyi sistemin sunması gerekenler* (Airokrasi'ye özgü değil, ama taahhüdümüz):
 - Her karar için "neden?" sorusunun yazılı ve sade bir yanıtı vardır. İtirazın son durağı bir insandır.
 - Geçim ödemeleri, dar ve yazılı istisnalar dışında, inceleme sürerken kesilmez.
-- Büyük ihale ve imar yolsuzluğunu bitireceğimizi söylemiyoruz. Orada insan takdiri sürer, kayırma da orada olur. Ajanlar bunu görünür ve pahalı kılabilir. Daha fazlasını iddia etmiyoruz.
+- Büyük ihale ve imar yolsuzluğunu bitireceğimizi söylemiyoruz. Orada insan takdiri sürer, kayırma da orada olur. Süper zekâlar bunu görünür ve pahalı kılabilir. Daha fazlasını iddia etmiyoruz.
 - Bağımsız bir bütünlük kurumu yolsuzluğu önler, risk analizi yapar, inceler ve delil toplar. Soruşturma açmaz, yaptırım vermez: soruşturma ve kovuşturma savcıda, arama, dinleme ve mal varlığı dondurma gibi zorlayıcı tedbirler hâkimde kalır. Kurumun yetkisi ancak yazılı koşullarla genişletilebilir (tüm siyasi çevrelere eşit davrandığının art arda iki yıl denetimle gösterilmesi ve savcılık güvencelerinin kurulmuş olması) ve yalnızca sonraki yasama döneminden başlar.
 - Belirli bir kişiye ya da gruba ceza veya yük getirmeyi amaçlayan kanun çıkarılamaz. Belirli bir kişi, firma, parsel ya da bölge lehine hüküm işaretlenir, yayımlanır ve eşitlik incelemesine açılır; neden o kişi ya da bölge olduğunu kanun koyucu kanıtlar.
 
 *Yalnızca Airokrasi'nin sınamak istedikleri:*
-- Dijital ödeme ve e-devlet örneklerinde küçük rüşvet belirgin biçimde azaldı (Hindistan'daki rastgele deneme, Gürcistan). Bunun yapay zekâ ajanlarıyla da olmasını bekliyoruz; ama bu kanıtlar ödeme altyapısını sınadı, ajanları değil.
+- Dijital ödeme ve e-devlet örneklerinde küçük rüşvet belirgin biçimde azaldı (Hindistan'daki rastgele deneme, Gürcistan). Bunun süper zekâlarla da olmasını bekliyoruz; ama bu kanıtlar ödeme altyapısını sınadı, süper zekâları değil.
 - Yapay zekânın kazancının çok az sayıda kişide ya da kurumda birikmemesi için kural koyacağız, birikimi ölçüp yayımlayacağız. Vatandaşlara kurala bağlı bir pay ayrılacak (Yurttaş Payı). Rakam vaat etmiyoruz.
-- Ajanlar işleri devraldığı için hiçbir kamu çalışanı işten çıkarılmaz. Sayılar yalnızca gönüllü ayrılma ve emeklilikle azalır; insan incelemesini, itirazı ve insan temasını koruyan tabanın altına inmez. Bu bir taahhüttür, insan hakkı değildir. Bu yüzden nitelikli çoğunluk isteyen bir kanunla yazılır, değiştirilemez çekirdeğe girmez; sonraki meclisler kamu hizmetinin nasıl örgütleneceğine yine karar verebilir. Taahhüt bir gün değiştirilir ya da kaldırılırsa, o gün görevde olanlar korunur; ancak denk görev, derece ve kademe, yeniden eğitim ve yazılı atama teklifleri sunulursa bu koruma gevşetilebilir.
+- Süper zekâlar işleri devraldığı için hiçbir kamu çalışanı işten çıkarılmaz. Sayılar yalnızca gönüllü ayrılma ve emeklilikle azalır; insan incelemesini, itirazı ve insan temasını koruyan tabanın altına inmez. Bu bir taahhüttür, insan hakkı değildir. Bu yüzden nitelikli çoğunluk isteyen bir kanunla yazılır, değiştirilemez çekirdeğe girmez; sonraki meclisler kamu hizmetinin nasıl örgütleneceğine yine karar verebilir. Taahhüt bir gün değiştirilir ya da kaldırılırsa, o gün görevde olanlar korunur; ancak denk görev, derece ve kademe, yeniden eğitim ve yazılı atama teklifleri sunulursa bu koruma gevşetilebilir.
 - Devlet, kendi kararının yarattığı değerden pay alabilir; örneğin tarım arazisi imara açıldığında. Şimdilik bu yalnızca hesaplanır ve yayımlanır. Tahsil ancak bir vergi olarak olabilir: nitelikli çoğunluklu kanunla yazılmış sabit bir bant, pazarlık yok, yalnızca gerçekleşmiş artış, tahsilat vergi idaresince; ve ancak hukukçu görüşü ile bir pilottan sonra. Rakam vaat etmiyoruz.
 - Güvencelerimiz bazı işlemleri yavaşlatabilir. Hız vaat etmiyoruz.
 
@@ -102,7 +102,7 @@ Bu sistemin en büyük riski, kazananın hepsini alması ve itiraz edecek insan 
 - Kayıtları bir defterde tutmak değiştirilmelerini zorlaştırır; içlerindeki bilginin doğru olduğunu garanti etmez.
 - Bildiğimiz kadarıyla hiçbir ülke böyle bir sistemi baştan sona denemedi.
 
-Bu yüzden geçiş kademeli olmalı: önce gölge dönem (ajanlar yalnızca öneri üretir, yetkisizdir), sonra sınırlı pilotlar, sonra ölçek. Her aşamada geri dönüş yolu açık kalır.
+Bu yüzden geçiş kademeli olmalı: önce gölge dönem (süper zekâlar yalnızca öneri üretir, yetkisizdir), sonra sınırlı pilotlar, sonra ölçek. Her aşamada geri dönüş yolu açık kalır.
 
 ---
 
@@ -110,7 +110,7 @@ Bu yüzden geçiş kademeli olmalı: önce gölge dönem (ajanlar yalnızca öne
 
 **Statü.** Bu bölüm bir Değerler Bildirgesi'dir. Bağlayıcı değildir ve kendi başına kimseye bireysel hak vermez. İnsan hakları sözleşmesini yapay zekâ çağının sorularıyla tamamlar. Anayasaların yazılacağı kaynak metindir (K18) ve anayasaların bu değerlere uygun okunması için bir kılavuzdur; anayasanın başlangıç bölümü ona atıf yapar.
 
-Üç katman vardır. En üstte (K1) insan hakları sözleşmeleri ile [Airokrasi İnsan Hakları Beyannamesi](BEYANNAME.md) durur; bunlar bağlayıcıdır. Altında bu II. Bölüm gelir. I. Bölüm normatif değildir: gerekçe ve siyasi taahhüt metnidir.
+Üç katman vardır. En üstte (K1) insan hakları sözleşmeleri ile Airokrasi İnsan Hakları Beyannamesi (hazırlanıyor; tartışması tamamlanınca nihai metin olarak depoya girecek) durur; bunlar bağlayıcıdır. Altında bu II. Bölüm gelir. I. Bölüm normatif değildir: gerekçe ve siyasi taahhüt metnidir.
 
 Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokunanlar birer değer cümlesidir ve her biri ilgili Beyanname maddelerine atıf yapar; sözler farklıysa Beyanname esastır. Bu bölüm sözleşmeyle çelişirse sözleşme esastır: madde önce sözleşmeye uygun okunur, öyle okunamıyorsa yürürlükte sayılmaz ve gözden geçirmeye gider. Ulusal anayasayla çelişirse anayasa yürürlükte kalır; ama çelişki bir ihlal sayılabilir ve üyelik açısından sonuç doğurabilir. Bu bölümde yalnızca evrensel değerler yer alır; Airokrasi'ye ya da geçişe özgü taahhütler I. Bölüm'dedir. Beyanname tartışılmakta olan bir taslaktır.
 
@@ -162,7 +162,7 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 
 ### İnsan ve makine
 
-**Madde 5 — Egemenlik insandadır.** Ajanın doğal yetkisi yoktur. Her yetki insanlardan gelir, belli kapsam ve süre içindir, önceden yazılı usullerle geri alınabilir.
+**Madde 5 — Egemenlik insandadır.** Süper zekâların doğal yetkisi yoktur. Her yetki insanlardan gelir, belli kapsam ve süre içindir, önceden yazılı usullerle geri alınabilir.
 
 > **Gerekçe [Madde 5]**
 > - **Amaç:** Ajanın yetkisinin kaynağını ve sınırını yazmak.
@@ -171,7 +171,7 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 > - **Kaynak:** `docs/01-ilkeler.md` (İ2); T09 (§8.2); T03 §3.5.
 > - **Onay:** Onaylı (2026-11-08).
 
-**Madde 6 — Ajan bir araçtır.** Ajan hukuki kişi değildir. Her ajan işleminin hukuken atfedildiği adı belli bir insan makam vardır. "Kararı yapay zekâ verdi" mazeret değildir.
+**Madde 6 — Süper zekâlar araçtır.** Süper zekâlar hukuki kişi değildir. Her süper zekâ işleminin hukuken atfedildiği adı belli bir insan makam vardır. "Kararı yapay zekâ verdi" mazeret değildir.
 
 *Beyanname:* Ek Madde 5.
 
@@ -182,7 +182,7 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 > - **Kaynak:** T04 §5; T09 (§8.2, İ8); T03 §3.4.
 > - **Onay:** Onaylı (2026-11-08).
 
-**Madde 7 — Hüküm insanındır.** Yargı yetkisini yalnızca bağımsız insan hâkimler kullanır; ajan hazırlar, hâkim hükmeder. Kanun ve anayasa kabulü, olağanüstü hâl ve savaş kararı da insanındır.
+**Madde 7 — Hüküm insanındır.** Yargı yetkisini yalnızca bağımsız insan hâkimler kullanır. Uyuşmazlık SZ'si (yapay zekâ; teknik ad: yargı ajanı) uyuşmazlık dosyasını inceler, hazırlık yapar ve öneri sunar. Hüküm vermez; hükmü yalnız hâkim verir. Bu rol bir mahkeme ya da kurum değildir; mahkemenin yerine geçmez. Kanun ve anayasa kabulü, olağanüstü hâl ve savaş kararı da insanındır.
 
 *Beyanname:* BM Beyannamesi Md. 10, 11; Ek Madde 4.
 
@@ -193,7 +193,7 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 > - **Kaynak:** T04 (A2); T09 (A2); T11 (KB-4).
 > - **Onay:** Onaylı (2026-11-08).
 
-**Madde 8 — İnsan seçer.** Ajan, farklı kaynaklardan gelen seçenekler sunabilir. Seçmek, reddetmek ve kanunda yazılı sınırlar içinde "hiçbiri" demek ya da yeniden istemek insanındır; cumhurbaşkanı dahil. Seçeneklerin yeterliliğinden adı belli bir insan sorumludur.
+**Madde 8 — İnsan seçer.** Süper zekâlar, farklı kaynaklardan gelen seçenekler sunabilir. Seçmek, reddetmek ve kanunda yazılı sınırlar içinde "hiçbiri" demek ya da yeniden istemek insanındır; cumhurbaşkanı dahil. Seçeneklerin yeterliliğinden adı belli bir insan sorumludur.
 
 > **Gerekçe [Madde 8]**
 > - **Amaç:** İnsanın görevini seçmek olarak tanımlarken, seçenek üretenin gücünü sınırlamak.
@@ -202,7 +202,7 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 > - **Kaynak:** T09 (K17, C1); 01b (P4); T11 (KB-12).
 > - **Onay:** Onaylı (2026-11-08).
 
-**Madde 9 — Gerekçe ve itiraz.** Herkes kendisini etkileyen kararın gerekçesini sade dille öğrenir, bir ajanla mı insanla mı muhatap olduğunu bilir ve itiraz eder. İtirazın son durağı insan hâkim ya da insan kuruldur. Kimse yalnızca otomatik kararla yargılanamaz.
+**Madde 9 — Gerekçe ve itiraz.** Herkes kendisini etkileyen kararın gerekçesini sade dille öğrenir, bir süper zekâyla (yapay zekâ) mı insanla mı muhatap olduğunu bilir ve itiraz eder. İtirazın son durağı insan hâkim ya da insan kuruldur. Kimse yalnızca otomatik kararla yargılanamaz.
 
 *Beyanname:* Ek Madde 1, 2, 3, 4.
 
@@ -242,7 +242,7 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 > - **Kaynak:** T04 §6 (#11); T09 (§8.2 İ4, K15).
 > - **Onay:** Onaylı (2026-11-08).
 
-**Madde 13 — Tek noktaya bağımlılık yasağı.** Hiçbir kritik işlev tek bir modele, şirkete, tedarikçiye ya da ortak iletişim noktasına bağlı olamaz. Bunun mümkün olmadığı yerde bağımlılık haritalanır, yayımlanır ve yedeklenir. Denetleyen ajan, denetlenen ajanla aynı modele ve aynı geliştiriciye dayanmaz.
+**Madde 13 — Tek noktaya bağımlılık yasağı.** Hiçbir kritik işlev tek bir modele, şirkete, tedarikçiye ya da ortak iletişim noktasına bağlı olamaz. Bunun mümkün olmadığı yerde bağımlılık haritalanır, yayımlanır ve yedeklenir. Denetleyen süper zekâ, denetlenen süper zekâyla aynı modele ve aynı geliştiriciye dayanmaz.
 
 > **Gerekçe [Madde 13]**
 > - **Amaç:** Ortak hata ve tek tedarikçi riskine karşı koymak.
@@ -264,7 +264,7 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 > - **Kaynak:** T09 (A3, B6, B8); T11 (KB-7); T03 §1.1, §3.1.
 > - **Onay:** Onaylı (2026-11-08).
 
-**Madde 15 — Kuvvetler ayrılığı.** Yasama, yürütme ve yargı ajanları ayrıdır; biri ötekine talimat veremez. Denetim organlarının nasıl kurulacağı anayasada yazılıdır ve hiçbir iktidar dönemi bir kurulun çoğunluğunu atayamaz.
+**Madde 15 — Kuvvetler ayrılığı.** Yasa SZ'si (yapay zekâ), Kamu SZ'si (yapay zekâ; teknik ad: yürütme ajanı) ve Uyuşmazlık SZ'si (yapay zekâ) ayrı rollerdir; biri ötekine talimat veremez. Yasa SZ'si (yapay zekâ) kanun taslağı hazırlar; Kamu SZ'si (yapay zekâ) kanunları uygular ve kamu hizmetlerini yürütür; Uyuşmazlık SZ'si (yapay zekâ) uyuşmazlıkları inceler ve hâkime öneri sunar. Bu üç rol kurum ya da organ değil, görev ve yetki sınırı belli yapay zekâ rolleridir; hiçbir kurumun ya da mahkemenin yerine geçmez. Denetim organlarının nasıl kurulacağı anayasada yazılıdır ve hiçbir iktidar dönemi bir kurulun çoğunluğunu atayamaz.
 
 > **Gerekçe [Madde 15]**
 > - **Amaç:** Güvencelerin dayandığı kurulların ele geçirilmesini zorlaştırmak.
@@ -282,7 +282,7 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 > - **Kaynak:** T09 (B1, B1-K, Ek-K7); T11 (KB-5, KB-6, KB-13); T03 §2.7, D10.
 > - **Onay:** Onaylı (2026-11-08).
 
-**Madde 17 — Kamu gücü kamu yararınadır.** Kayırmacılık ve yolsuzluk görünür ve pahalı kılınır: çıkar çatışması beyan edilir, kamu kararları ve ihaleler açılır, kamu kararının özel kişilere yarattığı kazanç hesaplanır ve yayımlanır. Bağımsız bir bütünlük kurumu önler, inceler ve delil toplar; soruşturma ve kovuşturma savcıda, zorlayıcı tedbirler hâkimde kalır. Belirli bir kişiye ya da gruba ceza veya yük getirmeyi amaçlayan hiçbir kanun çıkarılamaz. Ajan sinyal verir, kararı insan kurumlar verir.
+**Madde 17 — Kamu gücü kamu yararınadır.** Kayırmacılık ve yolsuzluk görünür ve pahalı kılınır: çıkar çatışması beyan edilir, kamu kararları ve ihaleler açılır, kamu kararının özel kişilere yarattığı kazanç hesaplanır ve yayımlanır. Bağımsız bir bütünlük kurumu önler, inceler ve delil toplar; soruşturma ve kovuşturma savcıda, zorlayıcı tedbirler hâkimde kalır. Belirli bir kişiye ya da gruba ceza veya yük getirmeyi amaçlayan hiçbir kanun çıkarılamaz. Süper zekâlar sinyal verir, kararı insan kurumlar verir.
 
 > **Gerekçe [Madde 17]**
 > - **Amaç:** Kayırmacılığı ve yolsuzluğu ortadan kaldırmayı değil, görünür ve pahalı kılmayı hedeflemek (K9).
@@ -302,7 +302,7 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 > - **Kaynak:** E09 (Karar 1–5, 18, 26); E13 (madde 1, 4); E07a; V (V-07 (2)).
 > - **Onay:** Kısmen. Vatandaşlık ölçütü kurucu girdisidir; hukuki risk R-01 araştırma görevi olarak kayıtlıdır. Ad, V-07 (2) hakem kararıyla (K31) 2026-11-09'da netleşti; itiraza açık.
 
-**Madde 19 — Emek ve anlam.** Kimse zorla çalıştırılamaz. Ajanlar işlerin bir kısmını devralırken değişimin bedeli çalışanlara yüklenmez; insan incelemesi, itiraz ve insan temasının kapasitesi hiçbir zaman tabanın altına indirilmez. Herkese gönüllü, damgalamayan katkı yolları açılır; hiçbir hak gönüllü katkıya bağlanamaz.
+**Madde 19 — Emek ve anlam.** Kimse zorla çalıştırılamaz. Süper zekâlar işlerin bir kısmını devralırken değişimin bedeli çalışanlara yüklenmez; insan incelemesi, itiraz ve insan temasının kapasitesi hiçbir zaman tabanın altına indirilmez. Herkese gönüllü, damgalamayan katkı yolları açılır; hiçbir hak gönüllü katkıya bağlanamaz.
 
 *Beyanname:* BM Beyannamesi Md. 23, 24.
 
@@ -352,13 +352,13 @@ Haklar yalnızca Beyanname'de yazılıdır. Aşağıdaki maddelerden hakka dokun
 
 **Eleştirin.** Zayıf yerleri bulun; bulduklarınız değerlendirilir ve gerekçeli yanıtlanır.
 
-**Sınayın.** Gölge dönem ve küçük pilotlar için gönüllü belediyeler, kurumlar, ülkeler arıyoruz. Katılmak, yetki devretmek demek değildir; gölge dönemde ajanlar yalnızca öneri üretir.
+**Sınayın.** Gölge dönem ve küçük pilotlar için gönüllü belediyeler, kurumlar, ülkeler arıyoruz. Katılmak, yetki devretmek demek değildir; gölge dönemde süper zekâlar yalnızca öneri üretir.
 
 **Katılın.** Tartışma açık yürür.
 
 ### Bu metin nasıl yazıldı
 
-Bu metin yapay zekâ ajanlarının yapılandırılmış bir tartışmasıyla hazırlandı: yazar, eleştirmen, hukuk ve güvenlik uzmanları, Vatandaşın Düşüncesi, hakem. K31 gereği kurucu hiçbir aşamada karar vermez: değer sorularını, tartışmaya katılmamış yapay zekâ hakemleri gerekçe yazarak karara bağlar ve yeni bir argüman ya da kanıt getiren herkes bir kararı yeniden açabilir. Gerçek yurttaşlar ve uzmanlar metni henüz görmedi; bu taslağı yayımlama nedenimiz budur.
+Bu metin süper zekâların yapılandırılmış bir tartışmasıyla hazırlandı: yazar, eleştirmen, hukuk ve güvenlik uzmanları, Vatandaşın Düşüncesi, hakem. K31 gereği kurucu hiçbir aşamada karar vermez: değer sorularını, tartışmaya katılmamış yapay zekâ hakemleri gerekçe yazarak karara bağlar ve yeni bir argüman ya da kanıt getiren herkes bir kararı yeniden açabilir. Gerçek yurttaşlar ve uzmanlar metni henüz görmedi; bu taslağı yayımlama nedenimiz budur.
 
 İnsanlık makineye geçmeyecek. Makine, insanlığın hizmetine geçecek: insanın denetiminde, insanın yetkisi altında, insanın geri alabileceği biçimde.
 
@@ -384,7 +384,7 @@ Bu metin yapay zekâ ajanlarının yapılandırılmış bir tartışmasıyla haz
 1. **Onur ve eşitlik** (M. 1–2). Haklar devredilemez; ayrımcılık yasağı siyasi görüşü ve algoritmayı da kapsar; davranış puanı yoktur.
 2. **Özgür bilgi ve mahremiyet** (M. 3–4). Basın korunur, devlet doğruyu etiketlemez, kişiye özel manipülasyon yasaktır.
 3. **Egemenlik, hüküm ve seçim insanındır** (M. 5, 7, 8).
-4. **Ajan araçtır, sorumlu insandır** (M. 6, 10). Risk arttıkça insan artar; geçim ödemeleri kural olarak kesilmez.
+4. **Süper zekâlar araçtır, sorumlu insandır** (M. 6, 10). Risk arttıkça insan artar; geçim ödemeleri kural olarak kesilmez.
 5. **Her karar gerekçeli, kayıtlı, itiraz edilebilirdir** (M. 9, 12, 20). Son durak insandır.
 6. **Durdurulabilir sistem; tek noktaya bağımlılık yok** (M. 11, 13).
 7. **İktidar seçimle devredilir; kuvvetler ayrıdır** (M. 14, 15). Denetim organlarının oluşumu anayasaldır.
@@ -396,7 +396,7 @@ Bu metin yapay zekâ ajanlarının yapılandırılmış bir tartışmasıyla haz
 
 **Söylemediklerimiz:** Politikacıların sözünü tutmadığını söylemiyoruz. Hız, kusursuzluk ve yolsuzluğun bitişi vaat etmiyoruz.
 
-**Bu metin nasıl yazıldı:** Yapay zekâ ajanlarının tartışmasıyla ve itiraza açık yapay zekâ hakem kararlarıyla; gerçek yurttaşlar henüz görmedi.
+**Bu metin nasıl yazıldı:** Süper zekâların tartışmasıyla ve itiraza açık yapay zekâ hakem kararlarıyla; gerçek yurttaşlar henüz görmedi.
 
 **Çağrı:** Eleştirin, sınayın, katılın.
 

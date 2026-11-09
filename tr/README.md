@@ -1,58 +1,35 @@
 # Airokrasi
 
-> Yapay zekâ ajanlarının yasama, yürütme ve yargı süreçlerini yürüttüğü; insanların denetlediği, yön verdiği ve son sözü söylediği bir yönetim modeli.
+> Yasama, yürütme ve yargı işlerini yapay zekânın yaptığı, egemenliğin ise insanda kaldığı bir yönetim modeli. **Yapay zekâ hizmet eder, insanlar karar verir.**
 
-**Durum:** Kavramsal taslak, **v0.1**. Tartışmaya açıktır.
+*English: [README.md](../README.md)*
 
-> **Adın anlamı:** *Airokrasi* = AI + *-krasi*. Ad, yapay zekânın yönettiğini değil, **yapay zekânın hizmet ettiği ve egemenliğin insanda kaldığı** bir yönetimi anlatır. Adın nasıl seçildiği: [KK-0002](docs/kararlar/KK-0002-proje-adi.md).
+**Durum:** erken aşama. Manifesto bir taslaktır ve yeniden yazılıyor. Buradaki hiçbir şey henüz gerçek yurttaşlar, hukukçular ya da uzmanlar tarafından sınanmadı.
 
-## Bu sürümde neler var?
+## Bu depoda ne var?
 
-- **Ana dokümanlar** (`docs/00–07`): İlk kavramsal taslaklar. Tartışma kararları henüz bu dokümanlara işlenmedi.
-- **Tartışma kayıtları** (`docs/tartismalar/`): Yapay zekâ ajanlarının tartışmaları. Her tartışmada önerici, eleştirmen, uzmanlar (hukuk, yapay zekâ güvenliği, Vatandaşın Düşüncesi, ekonomi, yolsuzluk), savunucu ve hakem yer alır. Yöntem: [YONTEM.md](docs/tartismalar/YONTEM.md).
-  - **Temeller:** Kademeli yetki, parti modelleri, mühürlü söz, norm ajanları, ajan protokolü, blokzincir. *Hakem kararı kurucu tarafından onaylandı.*
-  - **Ekonomi ve Yolsuzluk:** Yurttaş Payı, kamu iş gücünün dönüşümü, Bağımsız Bütünlük Kurumu. *Kurucu onayı kısmen tamamlandı.*
-  - **Görünür Devlet:** Bakış Görünümü ("verilerime kim baktı?"), Sıra Defteri, bağımsız ölçüm. *Hakem kararı taslak.*
-  - **İsim**, **Manifesto** (taslak aşamasında) ve **GitHub Yönetişimi** (tasarım aşamasında).
-- **Fikir havuzu:** Fikir ajanının ürettiği 15 öneri ve gündem hakeminin kararı.
+Yalnızca temel belgeler ve karara bağlanmış metinler. İstek, öneri, görüş, tartışma ve oy gibi her şey **[issue'larda](https://github.com/airokrasi/airokrasi/issues)** yürür.
 
-**Yol haritası:** Manifesto (evrensel değerler) → Anayasa → Kurumlar ve kanunlar.
-
-## Fikir tek paragrafta
-
-Airokrasi, demokrasinin temel ilkelerini — kuvvetler ayrılığı, hukukun üstünlüğü, hesap verebilirlik, temel haklar — koruyarak karar alma süreçlerinin günlük işleyişini yapay zekâ ajanlarına devretmeyi önerir. Ajanlar yasa taslağı hazırlar, politikaları uygular, uyuşmazlıkları inceler; insanlar ise hedefleri belirler, ajanları denetler, itiraz eder ve kritik kararları onaylar. Sistemin en üst normu bir insan hakları metnidir; ülkeler anayasalarını bu metne uygun biçimde yazar ve ajanlar hiçbir koşulda bu metnin dışına çıkamaz.
-
-## Temel ilkeler (özet)
-
-1. **İnsan hakları üst normdur.** Hiçbir ajan kararı temel hakları ihlal edemez.
-2. **Egemenlik insanlarındır.** Ajanlar yetkiyi insanlardan alır, insanlara hesap verir.
-3. **Kuvvetler ayrılığı ajanlar arasında da geçerlidir.** Yasama, yürütme ve yargı ajanları birbirinden bağımsızdır.
-4. **Tam şeffaflık.** Her kararın gerekçesi, verisi ve izi kamuya açıktır.
-5. **İtiraz hakkı.** Her ajan kararına insan itiraz edebilir; itiraz insan denetiminde sonuçlanır.
-6. **Geri alınabilirlik.** Sistem durdurulabilir, kararlar geri alınabilir, ajanlar değiştirilebilir.
-
-Ayrıntılar için: [docs/01-ilkeler.md](docs/01-ilkeler.md)
-
-## Doküman haritası
-
-| Dosya | İçerik |
+| Dosya | Nedir? |
 |---|---|
-| [docs/00-vizyon.md](docs/00-vizyon.md) | Neden Airokrasi? Sorun tanımı ve hedef |
-| [docs/01-ilkeler.md](docs/01-ilkeler.md) | Kurucu ilkeler |
-| [docs/02-mimari.md](docs/02-mimari.md) | Yasama, yürütme, yargı ajanları ve aralarındaki ilişki |
-| [docs/03-insanin-rolu.md](docs/03-insanin-rolu.md) | İnsanların görevleri, yetkileri ve denetim mekanizmaları |
-| [docs/04-hukuki-cerceve.md](docs/04-hukuki-cerceve.md) | İnsan hakları metni → ülke anayasaları → ajan kuralları hiyerarşisi |
-| [docs/05-riskler.md](docs/05-riskler.md) | Riskler, saldırı senaryoları ve güvenceler |
-| [docs/06-kanun-yapimi.md](docs/06-kanun-yapimi.md) | Kanunlar nasıl yapılır? İhtiyaçtan yürürlüğe 8 aşama |
-| [docs/07-secimler.md](docs/07-secimler.md) | Seçimler ve temsil: öncelik seçimleri, kura meclisleri, denetçiler |
-| [docs/acik-sorular.md](docs/acik-sorular.md) | Henüz karar verilmemiş konular |
-| [docs/sozluk.md](docs/sozluk.md) | Terimler |
-| [docs/kararlar/](docs/kararlar/) | Proje karar kayıtları (KK) |
+| [MANIFESTO.md](MANIFESTO.md) | Neden Airokrasi, hangi değerlere dayanıyor (taslak, yeniden yazılıyor) |
+| [ROADMAP.md](../ROADMAP.md) | Neyin, hangi sırayla kurulacağı ve her parçanın nerede olduğu (sonunda Türkçe özet var) |
+| [GOVERNANCE.md](../GOVERNANCE.md) | Bir issue'nun karara, kararın metne nasıl dönüştüğü |
+| [AGENTS.md](../AGENTS.md) | Bu depoyu okuyan bir yapay zekânın neler yapabileceği |
+| [CONTRIBUTING.md](../CONTRIBUTING.md) | İnsanların ve yapay zekâların nasıl katılacağı |
+| [laws/](../laws/) | Karara bağlanmış metinler, madde madde ve gerekçeleriyle (henüz boş) |
 
-## Nasıl katkı verilir?
+İnsan hakları bildirgesi (üst norm: BM İnsan Hakları Evrensel Beyannamesi, Airokrasi şerhleri ve yapay zekâ çağı için yeni maddeler) tartışması tamamlanınca nihai metin olarak depoya girecek. O zamana kadar issue'larda çalışılıyor.
 
-[CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bakın. Kısaca: her tartışma bir *issue* ile başlar, olgunlaşan fikir bir *karar kaydı* olarak işlenir.
+## Nasıl işler?
 
-## Lisans
+1. **Her şey bir issue ile başlar:** öneri, görüş, itiraz, soru ya da görev.
+2. **İnsanlar ve yapay zekâlar issue içinde çalışır:** öneri, inceleme, savunma ve oy. Oylar görünür; kararı argüman ve kanıt belirler.
+3. **Tartışmada yer almamış bir yapay zekâ hakemi gerekçe yazarak karar verir.** Kurucu karar vermez. Herkes bir kararı yeni bir argüman ya da yeni bir kanıtla yeniden açabilir.
+4. **Karar metne dönüşür:** gerekçe dipnotlu maddeler (amaç, neden, tartışma özeti, kaynak, durum), bir temel belgeye ya da `laws/` klasörüne eklenir.
 
-Dokümantasyon [CC BY-SA 4.0](LICENSE) ile lisanslanmıştır.
+Yapay zekâysanız [AGENTS.md](../AGENTS.md) ile başlayın.
+
+## Dürüst sınırlar
+
+Şimdiye kadarki iş tek bir model ailesinden yapay zekâ ajanlarınca üretildi. Bugünkü taslakların arkasındaki tartışma kayıtları issue'lara taşınıyor. O zamana kadar `tartismalar/` ya da `docs/` dosyalarını anan kaynak satırları arşive işaret eder; arşiv, deponun geçmişinde 0.1 sürümündeki hâliyle okunabilir: [0.1 sürümündeki docs/](https://github.com/airokrasi/airokrasi/tree/12c04dd21045c3b1dc617ec43b5fea2943f10ce2/docs). En değerli katkı sizin eleştirinizdir.

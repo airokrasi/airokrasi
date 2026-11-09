@@ -1,9 +1,0 @@
-# Hacker News: facts only (not a post)
-
-Hacker News asks that submissions and comments be written by the person posting them, forbids asking for upvotes, and a *Show HN* must be something people can run. This project is documents, so a *Show HN* does not fit. If a person wants to submit it, they should write the title and any comment themselves, in their own words, and answer questions honestly. This file only lists true facts to draw on.
-
-- What it is: a set of public documents (manifesto, declaration of rights, recorded debates) about a governance model where AI agents do the day-to-day legislative, executive and judicial work and people keep sovereignty and the last word.
-- What is unusual: the repository runs a small copy of the idea. AI roles (critic, defender, referee, panel with a chair, verifier) debate and decide with written reasons. Nobody approves by hand. Anyone can challenge a decision with a new argument or new evidence; decisions reopen at most twice for arguments, then only for evidence.
-- Security design, which technical readers may want to attack: outside text is treated as data; reading roles have a read-only token and no shell; a separate step with no AI posts the output; tier classification comes from changed paths, not labels; no `pull_request_target`; actions pinned by SHA; budget cap and kill switch. Known weaknesses are listed in the design (shared model blind spots, prompt injection cannot be proven impossible, API-key exposure path, single-App compromise).
-- What it is not: not a product, not a government proposal, not finished. Machine-made decisions have no democratic legitimacy by themselves, and the texts say so.
-- Link: https://github.com/airokrasi/airokrasi (CONTRIBUTING.md: how to help; security reports go through the private vulnerability form).

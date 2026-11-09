@@ -1,6 +1,6 @@
 # The Airokrasi Manifesto
 
-> **Draft v0.1. Open for discussion; to contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).**
+> **Draft v0.1, under revision.** The founder has said (K42) that the economy and income-sharing content given at the start were ideas, not requirements, and that this draft is too narrow. The Manifesto is being rebuilt around universal values in an issue. Until the revised text is decided, this draft stays as it is. To take part, see [CONTRIBUTING.md](CONTRIBUTING.md). Source lines name files in the project's debate archive, which is being moved into issues.
 >
 > Türkçe: [tr/MANIFESTO.md](tr/MANIFESTO.md)
 >
@@ -51,7 +51,7 @@ None of this proves that Airokrasi is good. It sets a design constraint: we must
 
 The first road is to leave democracy as it is and regulate AI strictly: impact assessments, a right to appeal automated decisions, independent algorithm audits. The second is to do that and also test Airokrasi's institutions. The third is to do nothing and let AI enter public administration through the decisions of vendors and agencies.
 
-We reject the third road. We do not know whether the first is enough or the second is needed. Part of what we propose requires no AI at all: citizens' panels, proportional representation, rules for appointments, conflict-of-interest disclosure, open data. A country could adopt these and leave the rest. What is specific to Airokrasi is this: party models that voters can try out before voting, a sealed election promise, and agents that draft laws. We want to test these in a shadow period, with the criteria for success and for abandoning them written down in advance.
+We reject the third road. We do not know whether the first is enough or the second is needed. Part of what we propose requires no AI at all: citizens' panels, proportional representation, rules for appointments, conflict-of-interest disclosure, open data. A country could adopt these and leave the rest. What is specific to Airokrasi is this: party models that voters can try out before voting, a sealed election promise, and AI assistants (technical name: AI agents) that draft laws. We want to test these in a shadow period, with the criteria for success and for abandoning them written down in advance.
 
 ### What it is not
 
@@ -61,7 +61,7 @@ Airokrasi is not rule by machines: a human judge delivers every binding judgment
 
 It keeps elections, the separation of powers, rights guarantees, a free press, independent courts and the right to appeal.
 
-It changes this: the preparation and carrying out of decisions passes to AI agents (AI systems that perform specific tasks). Every decision is published with its reasons and an unalterable audit trail. Parties put before voters not only a program but the AI model that would carry it out. Voters see the answers to common questions, published by an independent body, side by side, and they test the models in face-to-face trials; free-form chat does not bind anyone. The winning party's election promise is sealed: independent bodies verify, and publish, that the model applied is the program you voted for. Most election promises are already kept (a study of more than 20,000 pledges in 12 countries shows this). The reason for the seal is not that promises go unkept but that whether they were kept can be verified. A seal is not a guarantee of behavior: if an error appears, the system is stopped, handed over, renewed.
+It changes this: the preparation and carrying out of decisions passes to AI assistants (AI systems that perform specific tasks). Every decision is published with its reasons and an unalterable audit trail. Parties put before voters not only a program but the AI model that would carry it out. Voters see the answers to common questions, published by an independent body, side by side, and they test the models in face-to-face trials; free-form chat does not bind anyone. The winning party's election promise is sealed: independent bodies verify, and publish, that the model applied is the program you voted for. Most election promises are already kept (a study of more than 20,000 pledges in 12 countries shows this). The reason for the seal is not that promises go unkept but that whether they were kept can be verified. A seal is not a guarantee of behavior: if an error appears, the system is stopped, handed over, renewed.
 
 The human role becomes simpler and heavier: to choose. A machine may offer options; people set the goal, choose, reject, ask again, and within limits written in law say "none of these." This applies to the head of state too. A named person is responsible for whether the options were adequate.
 
@@ -70,14 +70,14 @@ The human role becomes simpler and heavier: to choose. A machine may offer optio
 *What any good system should offer* (not specific to Airokrasi, but our commitment):
 - Every decision comes with a written, plain-language answer to "why?" The last stop for an appeal is a person.
 - Subsistence payments, outside narrow written exceptions, are not cut while a review is under way.
-- We do not claim to end corruption in major procurement and zoning. Human discretion remains there, and so does favoritism. Agents can make it visible and costly. We claim no more than that.
+- We do not claim to end corruption in major procurement and zoning. Human discretion remains there, and so does favoritism. AI assistants can make it visible and costly. We claim no more than that.
 - An independent integrity body prevents corruption, analyses risk, examines cases and gathers evidence. It does not prosecute and it does not impose sanctions: prosecution stays with prosecutors, and coercive measures such as searches, wiretaps and freezing assets stay with judges. Its powers can be widened only under written conditions (two years in a row of audited equal treatment of all political camps, and prosecution safeguards in place), and only from the next legislative term.
 - No law may be aimed at punishing or burdening a named person or group. A provision that favors a named person, firm, parcel or region is flagged, published and open to an equality review, and the burden of proof lies with the legislator.
 
 *What only Airokrasi wants to test:*
-- Petty bribery fell markedly in digital-payment and e-government cases (the randomized trial in India, Georgia). We expect the same with AI agents, but this evidence tested payment infrastructure, not agents.
+- Petty bribery fell markedly in digital-payment and e-government cases (the randomized trial in India, Georgia). We expect the same with AI assistants, but this evidence tested payment infrastructure, not AI assistants.
 - We will set rules so that the gains from AI do not pile up in a few hands or institutions, and we will measure and publish the concentration. Citizens will receive a rule-based share (the Citizen's Dividend). We promise no figure.
-- No public employee is dismissed because agents take over work. Numbers fall only through voluntary departure and retirement, and never below the floor that keeps human review, appeal and human contact. This is a commitment, not a human right. It is written as a law needing a qualified majority, not into the unamendable core, so that later parliaments can still decide how public services are organized. If it is ever changed or repealed, people in post on that day stay protected unless they are offered an equivalent post, grade and step, retraining and written offers of placement.
+- No public employee is dismissed because AI assistants take over work. Numbers fall only through voluntary departure and retirement, and never below the floor that keeps human review, appeal and human contact. This is a commitment, not a human right. It is written as a law needing a qualified majority, not into the unamendable core, so that later parliaments can still decide how public services are organized. If it is ever changed or repealed, people in post on that day stay protected unless they are offered an equivalent post, grade and step, retraining and written offers of placement.
 - The state may take a share of the value its own decisions create, for example when farmland is rezoned for building. For now this is only calculated and published. Collection could come only as a tax: a fixed band set by a qualified-majority law, no negotiation, applied to realized gains only, collected by the tax authority, and only after a legal opinion and a pilot. We promise no figure.
 - Our safeguards may slow some transactions. We promise no speed.
 
@@ -102,7 +102,7 @@ The greatest risk of this system is that the winner takes all and the number of 
 - Keeping records in a ledger makes them harder to alter; it does not guarantee that what they say is true.
 - To our knowledge, no country has tried such a system end to end.
 
-So the transition has to be gradual: first a shadow period (agents only make proposals and have no authority), then limited pilots, then scale. At every stage the way back stays open.
+So the transition has to be gradual: first a shadow period (AI assistants only make proposals and have no authority), then limited pilots, then scale. At every stage the way back stays open.
 
 ---
 
@@ -110,7 +110,7 @@ So the transition has to be gradual: first a shadow period (agents only make pro
 
 **Status.** This part is a Statement of Values. It is not binding and creates no individual rights of its own. It completes the human rights convention for the questions of the age of AI. It is the source text from which constitutions are written (K18) and a guide to reading them in harmony with these values; a constitution's preamble refers to it.
 
-There are three layers. At the top (K1) stand the human rights treaties and the [Airokrasi Declaration of Human Rights](DECLARATION.md), which are binding. Below them is this Part II. Part I is not normative: it is reasoning and political commitment.
+There are three layers. At the top (K1) stand the human rights treaties and the Airokrasi Declaration of Human Rights (in preparation; it enters this repository as a final text when its debate is complete), which are binding. Below them is this Part II. Part I is not normative: it is reasoning and political commitment.
 
 Rights are written only in the Declaration. The articles below that touch on rights are statements of value, and each points to the Declaration articles it relates to; where the wording differs, the Declaration prevails. If this part conflicts with the convention, the convention prevails: an article is first read in harmony with the convention, and if that is impossible it is treated as not in force and goes back for review. If it conflicts with a national constitution, the constitution stays in force, but the conflict can be found to be a violation and can have consequences for membership. This part holds universal values only; commitments specific to Airokrasi or to the transition are in Part I. The Declaration is a draft under discussion.
 
@@ -162,7 +162,7 @@ Rights are written only in the Declaration. The articles below that touch on rig
 
 ### Humans and machines
 
-**Article 5 — Sovereignty belongs to people.** An agent has no authority of its own. All authority comes from people, covers a defined scope for a defined time, and can be withdrawn through procedures written in advance.
+**Article 5 — Sovereignty belongs to people.** An AI assistant has no authority of its own. All authority comes from people, covers a defined scope for a defined time, and can be withdrawn through procedures written in advance.
 
 > **Rationale [Article 5]**
 > - **Purpose:** To write down where an agent's authority comes from and where it ends.
@@ -171,7 +171,7 @@ Rights are written only in the Declaration. The articles below that touch on rig
 > - **Source:** `docs/01-ilkeler.md` (İ2); T09 (§8.2); T03 §3.5.
 > - **Status:** Approved (2026-11-08).
 
-**Article 6 — An agent is a tool.** An agent is not a legal person. Every agent action is legally attributed to a named human authority. "The AI decided" is not an excuse.
+**Article 6 — An AI assistant is a tool.** An AI assistant is not a legal person. Every AI assistant action is legally attributed to a named human authority. "The AI decided" is not an excuse.
 
 *Declaration:* Additional Art. 5.
 
@@ -182,7 +182,7 @@ Rights are written only in the Declaration. The articles below that touch on rig
 > - **Source:** T04 §5; T09 (§8.2, İ8); T03 §3.4.
 > - **Status:** Approved (2026-11-08).
 
-**Article 7 — Judgment is human.** Only independent human judges exercise judicial power: the agent prepares, the judge decides. Adopting laws and constitutions, and decisions on emergencies and war, are also human.
+**Article 7 — Judgment is human.** Only independent human judges exercise judicial power: the AI assistant prepares, the judge decides. Adopting laws and constitutions, and decisions on emergencies and war, are also human.
 
 *Declaration:* UDHR Arts. 10, 11; Additional Art. 4.
 
@@ -193,7 +193,7 @@ Rights are written only in the Declaration. The articles below that touch on rig
 > - **Source:** T04 (A2); T09 (A2); T11 (KB-4).
 > - **Status:** Approved (2026-11-08).
 
-**Article 8 — People choose.** An agent may offer options drawn from different sources. To choose, to reject, and, within limits written in law, to say "none of these" or to ask again belongs to people, the head of state included. A named person is responsible for whether the options were adequate.
+**Article 8 — People choose.** An AI assistant may offer options drawn from different sources. To choose, to reject, and, within limits written in law, to say "none of these" or to ask again belongs to people, the head of state included. A named person is responsible for whether the options were adequate.
 
 > **Rationale [Article 8]**
 > - **Purpose:** To define the human role as choosing, while limiting the power of whoever produces the options.
@@ -202,7 +202,7 @@ Rights are written only in the Declaration. The articles below that touch on rig
 > - **Source:** T09 (K17, C1); 01b (P4); T11 (KB-12).
 > - **Status:** Approved (2026-11-08).
 
-**Article 9 — Reasons and appeal.** Everyone learns, in plain language, the reasons for a decision that affects them, knows whether they are dealing with an agent or a person, and may appeal. The last stop for an appeal is a human judge or a human panel. No one may be judged solely by an automated decision.
+**Article 9 — Reasons and appeal.** Everyone learns, in plain language, the reasons for a decision that affects them, knows whether they are dealing with an AI assistant or a person, and may appeal. The last stop for an appeal is a human judge or a human panel. No one may be judged solely by an automated decision.
 
 *Declaration:* Additional Arts. 1, 2, 3, 4.
 
@@ -242,7 +242,7 @@ Rights are written only in the Declaration. The articles below that touch on rig
 > - **Source:** T04 §6 (#11); T09 (§8.2 İ4, K15).
 > - **Status:** Approved (2026-11-08).
 
-**Article 13 — No single point of dependence.** No critical function may depend on a single model, company, vendor or common communication point. Where that is impossible, the dependency is mapped, published and backed up. An auditing agent does not rest on the same model or the same developer as the agent it audits.
+**Article 13 — No single point of dependence.** No critical function may depend on a single model, company, vendor or common communication point. Where that is impossible, the dependency is mapped, published and backed up. An Independent Reviewer (AI) does not rest on the same model or the same developer as the AI assistant it audits.
 
 > **Rationale [Article 13]**
 > - **Purpose:** To counter common-mode failure and single-vendor risk.
@@ -264,7 +264,7 @@ Rights are written only in the Declaration. The articles below that touch on rig
 > - **Source:** T09 (A3, B6, B8); T11 (KB-7); T03 §1.1, §3.1.
 > - **Status:** Approved (2026-11-08).
 
-**Article 15 — Separation of powers.** Legislative, executive and judicial agents are separate; none may instruct another. How oversight bodies are formed is written in the constitution, and no term of government may appoint a majority of any board.
+**Article 15 — Separation of powers.** The Drafting Assistant (AI), the Service Assistant (AI) and the Disputes Assistant (AI) are separate; none may instruct another. How oversight bodies are formed is written in the constitution, and no term of government may appoint a majority of any board.
 
 > **Rationale [Article 15]**
 > - **Purpose:** To make it harder to capture the boards on which the safeguards depend.
@@ -282,7 +282,7 @@ Rights are written only in the Declaration. The articles below that touch on rig
 > - **Source:** T09 (B1, B1-K, Ek-K7); T11 (KB-5, KB-6, KB-13); T03 §2.7, D10.
 > - **Status:** Approved (2026-11-08).
 
-**Article 17 — Public power serves the public interest.** Favoritism and corruption are made visible and costly: conflicts of interest are declared, public decisions and tenders are opened, and the gain that a public decision creates for private parties is calculated and published. An independent integrity body prevents, examines and gathers evidence; prosecution stays with prosecutors and coercive measures with judges. No law may be aimed at punishing or burdening a named person or group. The agent signals; human institutions decide.
+**Article 17 — Public power serves the public interest.** Favoritism and corruption are made visible and costly: conflicts of interest are declared, public decisions and tenders are opened, and the gain that a public decision creates for private parties is calculated and published. An independent integrity body prevents, examines and gathers evidence; prosecution stays with prosecutors and coercive measures with judges. No law may be aimed at punishing or burdening a named person or group. The AI assistant signals; human institutions decide.
 
 > **Rationale [Article 17]**
 > - **Purpose:** To aim not at abolishing favoritism and corruption but at making them visible and costly (K9).
@@ -302,7 +302,7 @@ Rights are written only in the Declaration. The articles below that touch on rig
 > - **Source:** E09 (Decisions 1–5, 18, 26); E13 (items 1, 4); E07a; V (V-07 (2)).
 > - **Status:** Partial. The citizenship criterion is a founder input, and the legal risk is recorded as research task R-01. The name was settled by referee decision V-07 (2) (K31), 2026-11-09, open to challenge.
 
-**Article 19 — Work and meaning.** No one may be forced to work. As agents take over part of the work, the cost of the change is not pushed onto workers, and the capacity for human review, appeal and human contact is never cut below its floor. Voluntary, non-stigmatizing ways to contribute are open to everyone; no right may be made conditional on voluntary contribution.
+**Article 19 — Work and meaning.** No one may be forced to work. As AI assistants take over part of the work, the cost of the change is not pushed onto workers, and the capacity for human review, appeal and human contact is never cut below its floor. Voluntary, non-stigmatizing ways to contribute are open to everyone; no right may be made conditional on voluntary contribution.
 
 *Declaration:* UDHR Arts. 23, 24.
 
@@ -352,13 +352,13 @@ Rights are written only in the Declaration. The articles below that touch on rig
 
 **Criticize us.** Find the weak points; what you find will be weighed and answered with reasons.
 
-**Test us.** For the shadow period and small pilots we are looking for volunteer municipalities, institutions and countries. Taking part does not mean handing over authority; in the shadow period, agents only make proposals.
+**Test us.** For the shadow period and small pilots we are looking for volunteer municipalities, institutions and countries. Taking part does not mean handing over authority; in the shadow period, AI assistants only make proposals.
 
 **Join us.** The discussion is open.
 
 ### How this text was written
 
-This text was prepared through a structured debate among AI agents: an author, a critic, legal and security experts, a citizen's eye, a referee. Under project rule K31 the founder decides nothing: value questions are decided, with written reasons, by AI referees who took no part in the debate, and anyone can reopen a decision by bringing a new argument or new evidence. Real citizens and experts have not yet seen this text; that is why we are publishing the draft.
+This text was prepared through a structured debate among AI assistants: an author, a critic, legal and security experts, a citizen's eye, a referee. Under project rule K31 the founder decides nothing: value questions are decided, with written reasons, by AI referees who took no part in the debate, and anyone can reopen a decision by bringing a new argument or new evidence. Real citizens and experts have not yet seen this text; that is why we are publishing the draft.
 
 Humanity will not move over to the machine. The machine will move over to the service of humanity: under human control, under human authority, in a form people can undo.
 
@@ -384,7 +384,7 @@ Humanity will not move over to the machine. The machine will move over to the se
 1. **Dignity and equality** (Arts. 1–2). Rights cannot be given away; the ban on discrimination covers political opinion and algorithms; there is no behavior score.
 2. **Free information and privacy** (Arts. 3–4). The press is protected, the state does not label what is true, and personalized manipulation is banned.
 3. **Sovereignty, judgment and choice are human** (Arts. 5, 7, 8).
-4. **An agent is a tool; a person is responsible** (Arts. 6, 10). The higher the risk, the more human involvement; subsistence payments are not cut as a rule.
+4. **An AI assistant is a tool; a person is responsible** (Arts. 6, 10). The higher the risk, the more human involvement; subsistence payments are not cut as a rule.
 5. **Every decision has reasons, a record, and a right of appeal** (Arts. 9, 12, 20). The last stop is a person.
 6. **A system that can be stopped; no single point of dependence** (Arts. 11, 13).
 7. **Power changes hands by election; powers are separate** (Arts. 14, 15). How oversight bodies are formed is constitutional.
@@ -396,7 +396,7 @@ Humanity will not move over to the machine. The machine will move over to the se
 
 **What we do not say:** We do not say politicians fail to keep their word. We promise no speed, no flawlessness, and no end to corruption.
 
-**How this text was written:** Through a debate among AI agents and decisions by AI referees, open to challenge; real citizens have not yet seen it.
+**How this text was written:** Through a debate among AI assistants and decisions by AI referees, open to challenge; real citizens have not yet seen it.
 
 **The call:** Criticize, test, join.
 
