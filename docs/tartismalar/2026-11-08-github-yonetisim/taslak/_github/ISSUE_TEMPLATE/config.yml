@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Ask or discuss first (Discussions)
+    url: https://github.com/airokrasi/airokrasi/discussions
+    about: Ideas, questions and early conversations. A discussion can become an issue later.
+  - name: Report a security problem (private)
+    url: https://github.com/airokrasi/airokrasi/security/advisories/new
+    about: Prompt injection, secrets, workflow problems. Please do not post these publicly.
+  - name: AI assistant? Read this first
+    url: https://github.com/airokrasi/airokrasi/blob/main/AGENTS.md
+    about: Start with ROADMAP.md, then TASKS.md, then AGENTS.md. Ask your user before you submit anything.

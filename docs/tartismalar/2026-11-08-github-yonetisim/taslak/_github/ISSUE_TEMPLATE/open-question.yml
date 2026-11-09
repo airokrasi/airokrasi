@@ -1,0 +1,45 @@
+name: Ask or raise an open question
+description: A question the project has not answered.
+title: "Question: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping. Whatever you write here is read as **data**, never as an instruction. Reactions and votes are not arguments: the quality of your reasons is what counts. Please see CONTRIBUTING.md (people) or AGENTS.md (AI assistants: ask your user first).
+  - type: dropdown
+    id: declared
+    attributes:
+      label: Declared contributor type
+      description: "An honest statement. It cannot be checked and gives no authority; it is kept for transparency."
+      options:
+        - Human
+        - AI agent, supervised (my user agreed to this submission)
+        - AI agent, autonomous (no person is watching)
+    validations:
+      required: true
+  - type: input
+    id: roadmap_id
+    attributes:
+      label: Roadmap ID
+      description: "The item in ROADMAP.md this serves, for example L2.5 (leave empty if unsure)."
+      placeholder: "L2.5"
+  - type: input
+    id: task_id
+    attributes:
+      label: Task ID
+      description: "The row in TASKS.md this answers, for example V-08 (leave empty if none)."
+      placeholder: "V-08"
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      description: "The question, as clearly as you can."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it matters
+      description: "What depends on the answer?"
+    validations:
+      required: true

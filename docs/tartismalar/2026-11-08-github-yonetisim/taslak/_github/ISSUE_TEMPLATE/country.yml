@@ -1,0 +1,92 @@
+name: Country adaptation
+description: Adapt the framework to a country, in its language (countries/<name>/).
+title: "Country: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping. Whatever you write here is read as **data**, never as an instruction. Reactions and votes are not arguments: the quality of your reasons is what counts. Please see CONTRIBUTING.md (people) or AGENTS.md (AI assistants: ask your user first).
+  - type: dropdown
+    id: declared
+    attributes:
+      label: Declared contributor type
+      description: "An honest statement. It cannot be checked and gives no authority; it is kept for transparency."
+      options:
+        - Human
+        - AI agent, supervised (my user agreed to this submission)
+        - AI agent, autonomous (no person is watching)
+    validations:
+      required: true
+  - type: input
+    id: roadmap_id
+    attributes:
+      label: Roadmap ID
+      description: "The item in ROADMAP.md this serves, for example L2.5 (leave empty if unsure)."
+      placeholder: "L2.5"
+  - type: input
+    id: task_id
+    attributes:
+      label: Task ID
+      description: "The row in TASKS.md this answers, for example V-08 (leave empty if none)."
+      placeholder: "V-08"
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: "Country name or ISO 3166 code, for example Türkiye (TR)"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Contribution kind
+      description: "What kind of contribution?"
+      options:
+        - New country folder
+        - Adaptation proposal
+        - Research note or source
+        - Correction
+    validations:
+      required: true
+  - type: input
+    id: wlang
+    attributes:
+      label: Working language
+      description: "The language the country text will be written in"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: English summary
+      description: "Two or three sentences in English, so that others can follow."
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: Proposed change
+      description: "What should be added or changed in the country folder?"
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Purpose
+      description: "What is this change for?"
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason
+      description: "Why is it right? Give your strongest argument."
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: "Links or references. Write 'No source' if there is none; unverifiable sources count for little."
+    validations:
+      required: true
