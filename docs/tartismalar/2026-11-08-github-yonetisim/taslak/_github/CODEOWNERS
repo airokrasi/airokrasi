@@ -1,0 +1,14 @@
+# Code owners: the people who hold the keys (custodians) own ONLY the machine's own rules (Tier 3).
+# They execute published panel decisions ("second key"); they do not decide content. They own nothing else:
+# text, translations and country folders are handled by the process, not by owners (K31).
+# The team is created by the organization owners; see KURULUM.md. No personal account is named here (K22).
+/.github/                @airokrasi/custodians
+/AGENTS.md               @airokrasi/custodians
+/CLAUDE.md               @airokrasi/custodians
+/GEMINI.md               @airokrasi/custodians
+/llms.txt                @airokrasi/custodians
+/CONTRIBUTING.md         @airokrasi/custodians
+/GOVERNANCE.md           @airokrasi/custodians
+/SECURITY.md             @airokrasi/custodians
+/CODE_OF_CONDUCT.md      @airokrasi/custodians
+/LICENSE                 @airokrasi/custodians
